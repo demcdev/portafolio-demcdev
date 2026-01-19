@@ -1,0 +1,110 @@
+{
+  "header": {
+    "experience": "Experiencia",
+    "work": "Proyectos",
+    "stack": "Tecnologías",
+    "about": "Sobre mí",
+    "contact": "Contacto",
+    "toggleMenu": "Alternar menú"
+  },
+  "hero": {
+    "hello": "Hola",
+    "im": "Soy Diego Mora",
+    "role": "Desarrollador de Software",
+    "gotProject": "¿Tienes un proyecto?",
+    "myResume": "Mi currículum",
+    "techs": [
+      "HTML5",
+      "CSS",
+      "Javascript",
+      "Node.js",
+      "React",
+      "Git",
+      "Github"
+    ]
+  },
+  "about": {
+    "title": "Sobre mí",
+    "description": "Me especializo en desarrollo web y aplicaciones modernas, creando soluciones escalables, eficientes y enfocadas en la experiencia del usuario.\n\nActualmente estudio Ingeniería en Sistemas y profundizo constantemente en Inteligencia Artificial, aplicándola para automatizar procesos y construir productos digitales más inteligentes y eficientes.",
+    "services": [
+      { 
+        "title": "Desarrollo Web & Mobile", 
+        "subtitle": "Aplicaciones modernas y escalables" 
+      },
+      { 
+        "title": "Soluciones con IA", 
+        "subtitle": "Automatización inteligente y optimización de procesos" 
+      },
+      { 
+        "title": "Cloud & Hosting", 
+        "subtitle": "Infraestructura robusta y confiable" 
+      }
+    ],
+    "stats": [
+      { "value": "4 +", "label": "Años innovando" },
+      { "value": "30 +", "label": "PROYECTOS WEB Y APLICACIONES DESARROLLADAS" },
+      { "value": "100 +", "label": "ENFOQUE EN CALIDAD Y BUENAS PRÁCTICAS" }
+    ]
+  },
+  "experience": {
+    "title": "Experiencia Laboral",
+    "items": [
+      {
+        "title": "Frontend React Developer",
+        "company": "Tita Media",
+        "period": "Enero 2023 - Actualmente...",
+        "description": "Responsabilidades:\n\n● Participo activamente en todo el ciclo de desarrollo de producto, desde la recopilación de requerimientos hasta la implementación y pruebas, colaborando con equipos multidisciplinarios bajo la metodología ágil SCRUM y fomentando una comunicación clara y orientada a resultados.\n● Desarrollo tiendas e-commerce en plataformas como VTEX y Shopify, utilizando React, JavaScript, TypeScript, HTML, CSS, Sass y GraphQL.\n● Personalizo componentes nativos y desarrollo módulos desde cero en VTEX; en Shopify, adapto temas mediante Liquid e implemento mejoras funcionales para optimizar la experiencia de usuario.\n\nLogros:\n\n● Optimicé el rendimiento, accesibilidad y SEO en tiendas VTEX como Enrutalo, Bsoul y Uniandes, aplicando prácticas de estructura semántica, optimización de metaetiquetas, limpieza de URLs y estrategias de carga eficiente, logrando un incremento del 40% en la velocidad de carga y mejoras sustanciales en las métricas de Lighthouse.\n● Mejoré la experiencia de usuario en la tienda de Juan Valdez resolviendo un problema de duplicación de productos con attachments en el minicart.\n● Implementé una validación precisa de los datos enviados al carrito, permitiendo que los usuarios ajustaran cantidades sin generar duplicados, lo que resultó en un proceso de compra más fluido y un aumento del 20% en las conversiones."
+      },
+      {
+        "title": "Desarrollador de software",
+        "company": "Pragma",
+        "period": "Octubre 2021 - Septiembre 2022",
+        "description": "Responsabilidades:\n\n● Desarrollé e implementé componentes reutilizables en el portal de personas de Bancolombia utilizando Angular, TypeScript, Sass y HTML, mejorando la escalabilidad del front.\n● Implementé pruebas unitarias con Jasmine y Karma, mejorando la cobertura y estabilidad del frontend de la banca digital del Banco BHD (República Dominicana)."
+      },
+      {
+        "title": "Desarrollador de software",
+        "company": "Newsol Consulting",
+        "period": "Febreo 2021 - Octubre 2021",
+        "description": "Responsabilidades:\n\n● Desarrollé e implementé aplicaciones empresariales usando SAP Fiori y SAPUI5, mejorando la experiencia de usuario.\n● Utilicé tecnologías como JavaScript, HTML, CSS y jQuery, integradas en el entorno de desarrollo SAP Business Application Studio sobre Cloud Foundry."
+      },
+      {
+        "title": "Desarrollador de software",
+        "company": "IAS Software",
+        "period": "Enero 2019 - Mayo 2019",
+        "description": "Responsabilidades:\n\n● Participé en el desarrollo del sistema frontend para Bancolombia, utilizando Angular 7, Angular Material y Bootstrap para construir interfaces intuitivas y adaptables.\n● Aplicación de control de versiones y flujo de trabajo en equipo con herramientas como Git y metodologías ágiles."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Proyectos que marcaron la diferencia.",
+    "items": [
+      { "alt": "App Roomi - Buscador de roomies" },
+      { "alt": "App Uniandes - Plataforma universitaria" },
+      { "alt": "Mercado Libre - Clon de e-commerce" },
+      { "alt": "Bancolombia Personas - App bancaria" },
+      { "alt": "Juan Valdez - App de pedidos de café" },
+      { "alt": "Mattelsa - E-commerce de moda" },
+      { "alt": "Vine - Plataforma de video social" },
+      { "alt": "Supermall - Guía de centro comercial" },
+      { "alt": "Posts - Feed de redes sociales" },
+      { "alt": "Citas - Sistema de citas médicas" }
+    ]
+  },
+  "stack": {
+    "toolkit": "El Kit de Herramientas",
+    "title": "Experiencia Técnica",
+    "subtitle": "Una visualización estilo bento de las tecnologías que utilizo para dar vida a ideas complejas.",
+    "frontendArchitecture": "Arquitectura Frontend",
+    "scalableApis": "APIs Escalables",
+    "devopsCloud": "DevOps y Nube"
+  },
+  "footer": {
+    "ctaTitle": "¿Listo para empezar un proyecto?",
+    "ctaSubtitle": "Construyamos algo increíble juntos",
+    "getInTouch": "Ponerse en contacto",
+    "rights": "Todos los derechos reservados.",
+    "designedWith": "Diseñado con v0",
+    "siteInfo": "Información del sitio"
+  }
+}

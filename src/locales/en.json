@@ -1,0 +1,110 @@
+{
+  "header": {
+    "experience": "Experience",
+    "work": "Work",
+    "stack": "Stack",
+    "about": "About",
+    "contact": "Contact",
+    "toggleMenu": "Toggle menu"
+  },
+  "hero": {
+    "hello": "Hello",
+    "im": "I'm Diego Mora",
+    "role": "Software Developer",
+    "gotProject": "Got a project?",
+    "myResume": "My resume",
+    "techs": [
+      "HTML5",
+      "CSS",
+      "Javascript",
+      "Node.js",
+      "React",
+      "Git",
+      "Github"
+    ]
+  },
+  "about": {
+    "title": "About me",
+    "description": "I specialize in web development and modern applications, creating scalable, efficient solutions focused on user experience.\n\nCurrently, I am studying Systems Engineering and constantly deepening my knowledge in Artificial Intelligence, applying it to automate processes and build smarter and more efficient digital products.",
+    "services": [
+      { 
+        "title": "Web & Mobile Development", 
+        "subtitle": "Modern and scalable applications" 
+      },
+      { 
+        "title": "AI Solutions", 
+        "subtitle": "Intelligent automation and process optimization" 
+      },
+      { 
+        "title": "Cloud & Hosting", 
+        "subtitle": "Robust and reliable infrastructure" 
+      }
+    ],
+    "stats": [
+      { "value": "4 +", "label": "Years of innovation" },
+      { "value": "30 +", "label": "WEB PROJECTS AND APPLICATIONS DEVELOPED" },
+      { "value": "100 +", "label": "FOCUS ON QUALITY AND BEST PRACTICES" }
+    ]
+  },
+  "experience": {
+    "title": "Work Experience",
+    "items": [
+      {
+        "title": "Frontend React Developer",
+        "company": "Tita Media",
+        "period": "January 2023 - Present...",
+        "description": "Responsibilities:\n\n● Actively participate in the entire product development cycle, from requirement gathering to implementation and testing, collaborating with multidisciplinary teams under the SCRUM agile methodology and fostering clear, result-oriented communication.\n● Develop e-commerce stores on platforms like VTEX and Shopify, using React, JavaScript, TypeScript, HTML, CSS, Sass, and GraphQL.\n● Customize native components and develop modules from scratch in VTEX; in Shopify, adapt themes using Liquid and implement functional improvements to optimize user experience.\n\nAchievements:\n\n● Optimized performance, accessibility, and SEO in VTEX stores such as Enrutalo, Bsoul, and Uniandes, applying semantic structure practices, meta-tag optimization, URL cleanup, and efficient loading strategies, achieving a 40% increase in loading speed and substantial improvements in Lighthouse metrics.\n● Improved user experience in the Juan Valdez store by resolving a product duplication issue with attachments in the minicart.\n● Implemented precise validation of data sent to the cart, allowing users to adjust quantities without generating duplicates, resulting in a smoother checkout process and a 20% increase in conversions."
+      },
+      {
+        "title": "Software Developer",
+        "company": "Pragma",
+        "period": "October 2021 - September 2022",
+        "description": "Responsibilities:\n\n● Developed and implemented reusable components in the Bancolombia personal portal using Angular, TypeScript, Sass, and HTML, improving frontend scalability.\n● Implemented unit tests with Jasmine and Karma, improving coverage and stability of the digital banking frontend for Banco BHD (Dominican Republic)."
+      },
+      {
+        "title": "Software Developer",
+        "company": "Newsol Consulting",
+        "period": "February 2021 - October 2021",
+        "description": "Responsibilities:\n\n● Developed and implemented enterprise applications using SAP Fiori and SAPUI5, improving user experience.\n● Used technologies such as JavaScript, HTML, CSS, and jQuery, integrated into the SAP Business Application Studio development environment on Cloud Foundry."
+      },
+      {
+        "title": "Software Developer",
+        "company": "IAS Software",
+        "period": "January 2019 - May 2019",
+        "description": "Responsibilities:\n\n● Participated in the development of the frontend system for Bancolombia, using Angular 7, Angular Material, and Bootstrap to build intuitive and adaptable interfaces.\n● Applied version control and team workflow with tools like Git and agile methodologies."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Projects that made a difference.",
+    "items": [
+      { "alt": "Roomi App - Roommate finder" },
+      { "alt": "Uniandes App - University platform" },
+      { "alt": "Mercado Libre - E-commerce clone" },
+      { "alt": "Bancolombia Personas - Banking app" },
+      { "alt": "Juan Valdez - Coffee ordering app" },
+      { "alt": "Mattelsa - Fashion e-commerce" },
+      { "alt": "Vine - Social video platform" },
+      { "alt": "Supermall - Shopping mall guide" },
+      { "alt": "Posts - Social media feed" },
+      { "alt": "Citas - Medical appointment system" }
+    ]
+  },
+  "stack": {
+    "toolkit": "The Toolkit",
+    "title": "Technical Expertise",
+    "subtitle": "A bento-style visualization of the technologies I wield to bring complex ideas to life.",
+    "frontendArchitecture": "Frontend Architecture",
+    "scalableApis": "Scalable APIs",
+    "devopsCloud": "DevOps & Cloud"
+  },
+  "footer": {
+    "ctaTitle": "Ready to start a project?",
+    "ctaSubtitle": "Let's build something amazing together",
+    "getInTouch": "Get in Touch",
+    "rights": "All rights reserved.",
+    "designedWith": "Designed with v0",
+    "siteInfo": "Site Information"
+  }
+}
