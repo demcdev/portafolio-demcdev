@@ -10,27 +10,27 @@ export function Hero() {
         <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-12 min-h-[500px]">
           {/* Left Content */}
           <div className="flex-1 text-center md:text-left z-10">
-            <h2 className="mt-0 text-2xl md:text-4xl font-bold mb-2 animate-reveal-up" style={{ animationDelay: '100ms', opacity: 0 }}>
+            <h2 className="mt-0 text-2xl md:text-4xl font-bold mb-1 animate-reveal-up" style={{ animationDelay: '100ms', opacity: 0 }}>
               {t("hero.hello")}
               <span className="text-[#2ec766]">.</span>
             </h2>
-            <div className="flex items-center justify-center md:justify-start gap-4 mb-4 animate-reveal-up" style={{ animationDelay: '200ms', opacity: 0 }}>
+            <div className="flex items-center justify-center md:justify-start gap-4 mb-2 animate-reveal-up" style={{ animationDelay: '200ms', opacity: 0 }}>
               <div className="h-[2px] w-12 bg-[#2ec766]" />
               <p className="text-lg md:text-2xl font-medium text-muted-foreground">
                 {t("hero.im")}
               </p>
             </div>
-            <h1 className="text-4xl sm:text-5xl md:text-7xl font-black mb-10 tracking-tight leading-tight text-foreground animate-reveal-up" style={{ animationDelay: '300ms', opacity: 0 }}>
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-black mb-6 md:mb-10 tracking-tight leading-tight text-foreground animate-reveal-up" style={{ animationDelay: '300ms', opacity: 0 }}>
               {t("hero.role")}
             </h1>
             
-            <div className="flex flex-wrap justify-center md:justify-start gap-4 animate-reveal-up" style={{ animationDelay: '400ms', opacity: 0 }}>
-              <Button asChild className="bg-[#2ec766] hover:bg-[#28b35c] text-white rounded-md px-8 py-6 text-lg font-semibold border-none transition-all hover-lift w-full sm:w-auto">
+            <div className="flex flex-wrap justify-center md:justify-start gap-3 md:gap-4 animate-reveal-up" style={{ animationDelay: '400ms', opacity: 0 }}>
+              <Button asChild className="bg-[#2ec766] hover:bg-[#28b35c] text-white rounded-md px-8 py-4 md:py-6 text-lg font-semibold border-none transition-all hover-lift w-full sm:w-auto">
                 <a href="mailto:demcdev@gmail.com">
                   {t("header.contact")}
                 </a>
               </Button>
-              <Button asChild variant="outline" className="border-border text-foreground hover:bg-muted rounded-md px-8 py-6 text-lg font-semibold transition-all hover-lift w-full sm:w-auto">
+              <Button asChild variant="outline" className="border-border text-foreground hover:bg-muted rounded-md px-8 py-4 md:py-6 text-lg font-semibold transition-all hover-lift w-full sm:w-auto">
                 <a href="/files/CV_DiegoMora_FrontendDeveloper.pdf" download>
                   {t("hero.myResume")}
                 </a>
