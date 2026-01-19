@@ -144,7 +144,7 @@ export function Projects() {
   const { t } = useTranslation()
 
   return (
-    <section id="work" className="py-12 md:py-20 bg-muted/30">
+    <section id="work" className="py-8 md:py-16 bg-muted/30">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="flex items-end justify-center mb-10 reveal">
@@ -159,22 +159,22 @@ export function Projects() {
         </div>
 
         {/* Masonry Grid */}
-        <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {PROJECTS.map((project, index) => (
             <div
               key={index}
-              className="group relative break-inside-avoid rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 bg-background hover-lift reveal"
+              className="group relative rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 bg-background hover-lift reveal aspect-4/4"
               style={{ transitionDelay: `${index * 100}ms` }}
             >
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 loading="lazy"
               />
               
               {/* Hover Overlay - Always visible on mobile, hover on desktop */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
+              <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/50 to-transparent opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-5 md:p-6">
                 <h3 className="text-xl md:text-2xl font-bold text-white mb-1">
                   {project.title}
                 </h3>

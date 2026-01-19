@@ -25,7 +25,7 @@ export function TechStack() {
   const { t } = useTranslation()
 
   return (
-    <section id="stack" className="py-12 md:py-20 bg-muted/30">
+    <section id="stack" className="py-8 md:py-16 bg-muted/30">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">

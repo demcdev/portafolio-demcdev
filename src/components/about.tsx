@@ -10,7 +10,7 @@ export function About() {
   const serviceIcons = [<MonitorSmartphone key="web" />, <Cpu key="ai" />, <Cloud key="cloud" />]
 
   return (
-    <section id="about" className="py-12 md:py-20 bg-muted/30 text-foreground overflow-hidden">
+    <section id="about" className="py-8 md:py-16 bg-muted/30 text-foreground overflow-hidden">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20">
           {/* Left Column - Content (Title + Description + Stats) */}

@@ -5,7 +5,7 @@ export function Hero() {
   const { t } = useTranslation()
 
   return (
-    <section className="relative bg-muted/30 pt-8 md:pt-16 pb-12 overflow-hidden">
+    <section className="relative bg-muted/30 pt-6 md:pt-12 pb-8 overflow-hidden">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-12 min-h-[500px]">
           {/* Left Content */}
