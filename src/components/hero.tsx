@@ -16,7 +16,7 @@ export function Hero() {
             </h2>
             <div className="flex items-center justify-center md:justify-start gap-4 mb-2 animate-reveal-up" style={{ animationDelay: '200ms', opacity: 0 }}>
               <div className="h-[2px] w-12 bg-[#2ec766]" />
-              <p className="text-lg md:text-2xl font-medium text-muted-foreground">
+              <p className="text-lg md:text-2xl m-0 font-medium text-muted-foreground">
                 {t("hero.im")}
               </p>
             </div>
