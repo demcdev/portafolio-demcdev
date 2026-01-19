@@ -123,14 +123,6 @@ const PROJECTS = [
     tags: [TAGS.HTML, TAGS.CSS, TAGS.JAVASCRIPT, TAGS.TYPESCRIPT, TAGS.REACT, TAGS.VTEX],
   },
   {
-    title: "App de Posts con Login",
-    description: "WEB",
-    link: "https://app-posts.netlify.app/",
-    github: "https://github.com/DemcCode/reto-tita-media",
-    image: "/projects/app-posts.webp",
-    tags: [TAGS.HTML, TAGS.CSS, TAGS.JAVASCRIPT, TAGS.REACT],
-  },
-  {
     title: "App para agendar Citas",
     description: "WEB",
     link: "https://app-agendamiento-citas.netlify.app/",
